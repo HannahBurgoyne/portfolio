@@ -1,3 +1,5 @@
+import ImgContainer from './UI/ImgContainer'
+
 export default function Projects() {
   return (
     <>
@@ -25,6 +27,24 @@ export default function Projects() {
           justo, interdum in pretium et, porttitor vitae magna. Nunc porta
           auctor porta.
         </p>
+        <div className="grid gap-1 grid-cols-2">
+          <ImgContainer>
+            <img className="h-4" src="#" />
+            <p className="text-white">Image caption</p>
+          </ImgContainer>
+          <ImgContainer>
+            <img className="h-4" src="#" />
+            <p className="text-white">Image caption</p>
+          </ImgContainer>
+          <ImgContainer>
+            <img className="h-4" src="#" />
+            <p className="text-white">Image caption</p>
+          </ImgContainer>
+          <ImgContainer>
+            <img className="h-4" src="#" />
+            <p className="text-white">Image caption</p>
+          </ImgContainer>
+        </div>
       </section>
     </>
   )
