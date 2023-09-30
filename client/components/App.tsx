@@ -8,7 +8,6 @@ export default function App() {
     <>
       <Background>
         <Header />
-        <p className="text-white">App Layout</p>
         <Outlet />
         <Footer />
       </Background>
