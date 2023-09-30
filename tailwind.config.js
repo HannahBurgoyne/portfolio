@@ -5,6 +5,9 @@ export default {
   media: false,
   theme: {
     extend: {
+      spacing: {
+        padding: '40px',
+      },
       animation: {
         flip: 'flip 6s infinite steps(2, end)',
         rotate: 'rotate 3s linear infinite both',
