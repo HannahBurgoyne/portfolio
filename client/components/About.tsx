@@ -4,28 +4,35 @@ export default function About() {
       <h2 className="text-white text-center p-4">About me</h2>
       <div className="flex flex-col">
         <img src="#" className="w-32" />
-        <p className="text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras turpis
-          quam, gravida at volutpat eu, laoreet sit amet ante. Sed vestibulum
-          quis ligula ac mollis. Phasellus eu suscipit eros. Etiam risus sem,
-          laoreet a ultrices at, volutpat eget libero. Donec dignissim in metus
-          sed euismod. Donec nec malesuada odio. Phasellus dapibus lorem tellus,
-          aliquet faucibus odio ornare volutpat. Aliquam a convallis lorem.
-          Phasellus pretium suscipit mattis. Sed pellentesque mi ut odio aliquam
-          lobortis. Vestibulum nec ante metus. Vestibulum scelerisque commodo
-          dignissim. Mauris iaculis risus posuere nisi ultricies, id bibendum
-          dui dictum. Sed sed ipsum ipsum. In sit amet hendrerit tortor, id
-          fringilla est. Vivamus maximus, dui at finibus vulputate, enim magna
-          elementum enim, eget laoreet ligula diam quis lectus. Phasellus
-          facilisis metus vitae finibus vehicula. Donec sit amet felis
-          ullamcorper, pharetra sapien id, luctus libero. Vivamus ultrices
-          maximus metus id lacinia. Maecenas ornare est elit, sit amet
-          scelerisque augue rhoncus vitae. Curabitur id pulvinar lorem.
-          Pellentesque ultricies at libero id vehicula. Vivamus risus arcu,
-          bibendum in blandit commodo, pellentesque vitae mauris. Ut lectus
-          justo, interdum in pretium et, porttitor vitae magna. Nunc porta
-          auctor porta.
-        </p>
+        <div>
+          <p className="text-white">
+            Kia ora! I recently graduated from Dev Academy Aotearoa, where I
+            learnt to build fullstack software applications in an Agile
+            environment. I'm currently looking for work as a fullstack software
+            developer.
+          </p>
+          <p className="text-white">
+            Before shifting into the tech sector, I worked for six years in the
+            creative arts and industries where I learnt to be resourceful and
+            creative, and every day presented a new challenge to problem solve.
+            I gradually realised that my favourite part of my work was anything
+            technical - from teaching myself to program Brightsign audiovisual
+            media players, to rebuilding the gallery's website from stratch and
+            customising it with HTML and CSS. I began learning JavaScript at
+            home in my spare time, and enjoyed it so much that I took the plunge
+            into retraining in applied software development.
+          </p>
+          <p className="text-white">
+            I'm super passionate about problem-solving, building awesome tech,
+            exploring unfamiliar frameworks and languages, and learning as much
+            as I can along the way. I really thrive in Agile, fast-paced team
+            environments where I can contribute and seek support.
+          </p>
+          <p className="text-white">
+            Take a look at my projects below, and feel free to get in touch -
+            I'd love to hear from you!
+          </p>
+        </div>
       </div>
     </section>
   )
