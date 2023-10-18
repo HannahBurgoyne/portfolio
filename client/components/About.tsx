@@ -1,9 +1,13 @@
+import ImgContainer from './UI/ImgContainer'
+
 export default function About() {
   return (
     <section className="p-10">
       <h2 className="text-white text-center p-4">About me</h2>
       <div className="flex flex-col">
-        <img src="#" className="w-32" />
+        <ImgContainer>
+          <img src="/assets/profile_headshot.jpg" className="w-64 rounded-md" />
+        </ImgContainer>
         <div>
           <p className="text-white">
             Kia ora! I recently graduated from Dev Academy Aotearoa, where I
