@@ -24,7 +24,7 @@
       "id": 2,
       "name": "Messaging App",
       "image": "/assets/flashcards.png",
-      "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project.",
+      "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project. I learnt how to incorporate websockets into a fullstack application, set up local storage client-side, create a reverse-proxy server on my local machine to handle socket requests with Nginx, and reinforced my learnings around prop-drilling state management in React and styling with Tailwind CSS.",
       "tech": [
         "Node.js",
         "React",
