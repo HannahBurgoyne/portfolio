@@ -25,6 +25,16 @@
       "name": "Messaging App",
       "image": "/assets/flashcards.png",
       "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project.",
+      "tech": [
+        "Node.js",
+        "React",
+        "ReactQuery",
+        "TypeScript",
+        "Tailwind CSS",
+        "Socket.io",
+        "Express",
+        "Vite"
+        ],
       "deployed link": "https://messaging-app-websockets.up.railway.app/", 
       "repo link":  "https://github.com/HannahBurgoyne/messaging-app"
     },
