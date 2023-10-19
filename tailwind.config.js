@@ -5,6 +5,34 @@ export default {
   media: false,
   theme: {
     extend: {
+      typography: {
+        default: {
+          css: {
+            h1: {
+              fontFamily: ['Rubik', 'sans-serif'],
+              fontWeight: '500',
+              fontSize: '40px',
+            },
+            h2: {
+              fontFamily: ['Rubik', 'sans-serif'],
+              fontWeight: '400',
+              fontSize: '30px',
+            },
+            p: {
+              fontFamily: ['Rubik', 'sans-serif'],
+              fontWeight: '300',
+              fontSize: '18px',
+              leading: 'loose',
+            },
+            boxShadow: {},
+          },
+        },
+        variants: {
+          extend: {},
+        },
+
+        plugins: [require('@tailwindcss/typography')],
+      },
       spacing: {
         padding: '40px',
       },
@@ -25,24 +53,6 @@ export default {
         },
       },
       colors: {},
-      fontFamily: {},
-      boxShadow: {},
     },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    function ({ addUtilities }) {
-      const newUtilities = {
-        '.text-uppercase': {
-          textTransform: 'uppercase',
-          color: 'white',
-          fontWeight: 'bold',
-        },
-      }
-
-      addUtilities(newUtilities, ['responsive', 'hover'])
-    },
-  ],
 }
