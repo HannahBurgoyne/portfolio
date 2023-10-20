@@ -8,6 +8,6 @@ export interface Project {
   repoLink: string
 }
 
-interface ProjectData {
+export interface ProjectData {
   projects: Project[]
 }

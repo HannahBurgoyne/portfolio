@@ -1,6 +1,10 @@
+import { useQuery } from '@tanstack/react-query'
 import ImgContainer from './UI/ImgContainer'
+import { fetchProjects } from '../apiClient'
 
 export default function Projects() {
+  const { data } = useQuery(['projects'], fetchProjects)
+
   return (
     <>
       <section className="p-10">
@@ -28,23 +32,29 @@ export default function Projects() {
           auctor porta.
         </p>
         <div className="grid gap-1 grid-cols-2">
-          <ImgContainer>
-            <img className="h-4" src="#" />
-            <p className="text-white">Image caption</p>
-          </ImgContainer>
-          <ImgContainer>
-            <img className="h-4" src="#" />
-            <p className="text-white">Image caption</p>
-          </ImgContainer>
-          <ImgContainer>
-            <img className="h-4" src="#" />
-            <p className="text-white">Image caption</p>
-          </ImgContainer>
-          <ImgContainer>
-            <img className="h-4" src="#" />
-            <p className="text-white">Image caption</p>
-          </ImgContainer>
+          {data &&
+            data.projects?.map((project) => (
+              <div>
+                <h2 key={project.id}>{project.name}</h2>
+                <ImgContainer>
+                  <img className="h-4" src={`${project.image}`} />
+                  <p className="text-white">Image caption</p>
+                </ImgContainer>
+              </div>
+            ))}
         </div>
+        {/* <ImgContainer>
+          <img className="h-4" src="#" />
+          <p className="text-white">Image caption</p>
+        </ImgContainer>
+        <ImgContainer>
+          <img className="h-4" src="#" />
+          <p className="text-white">Image caption</p>
+        </ImgContainer>
+        <ImgContainer>
+          <img className="h-4" src="#" />
+          <p className="text-white">Image caption</p>
+        </ImgContainer> */}
       </section>
     </>
   )
