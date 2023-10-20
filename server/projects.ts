@@ -13,8 +13,6 @@ router.get('/', async (req, res) => {
     const filePath = Path.join(__dirname, 'data', 'data.json')
     const data = await fsPromises.readFile(filePath, 'utf-8')
     res.json(data)
-
-    res.send(data)
   } catch (error) {
     if (error instanceof Error) {
       res.status(500).send(error.message)
