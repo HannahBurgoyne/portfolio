@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Button from './UI/Button'
+import nodemailer from 'nodemailer'
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
@@ -16,29 +17,11 @@ export default function Contact() {
 
     // Send formData to your server for email processing
     // You'll need server-side code to handle the email sending.
-
-    // Example (Node.js with Nodemailer):
-    // const nodemailer = require("nodemailer");
-    // const transporter = nodemailer.createTransport({
-    //     service: "Gmail",
-    //     auth: {
-    //         user: "your-email@gmail.com",
-    //         pass: "your-password"
-    //     }
-    // });
-    // const mailOptions = {
-    //     from: formData.email,
-    //     to: "your-email@gmail.com",
-    //     subject: `Message from ${formData.name}`,
-    //     text: formData.message
-    // };
-    // transporter.sendMail(mailOptions, (error, info) => {
-    //     if (error) {
-    //         console.log(error);
-    //     } else {
-    //         console.log("Email sent: " + info.response);
-    //     }
-    // });
+    const emailData = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    }
 
     alert('Message sent!') // Replace this with your server-side code
 
