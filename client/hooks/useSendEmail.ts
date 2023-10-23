@@ -1,6 +1,5 @@
 import { useMutation } from '@tanstack/react-query'
 
-// Define the email sending function
 async function sendEmail(emailData) {
   const response = await fetch('/send-email', {
     method: 'POST',
@@ -17,7 +16,6 @@ async function sendEmail(emailData) {
   return response.json()
 }
 
-// Create a React Query mutation
 export function useSendEmailMutation() {
   return useMutation(sendEmail)
 }
