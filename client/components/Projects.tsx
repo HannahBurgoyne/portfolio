@@ -25,21 +25,23 @@ export default function Projects() {
         This is a selection of projects I've worked on recently. Please click on
         a project to see further details and links.
       </p>
-      {data &&
-        data.projects?.map((project) => (
-          <div key={project.id} className="grid gap-1 grid-cols-2">
-            <ImgContainer>
-              <div onClick={() => handleClick(project)}>
-                <h2 className="text-white">{project.name}</h2>
-                <img
-                  className="w-4"
-                  src={project.image}
-                  alt={`Image for ${project.name}`}
-                />
-              </div>
-            </ImgContainer>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 gap-4">
+        {data &&
+          data.projects?.map((project) => (
+            <div key={project.id}>
+              <ImgContainer>
+                <div onClick={() => handleClick(project)}>
+                  <h2 className="text-white">{project.name}</h2>
+                  <img
+                    className="w-18 h-auto"
+                    src={project.image}
+                    alt={`Image for ${project.name}`}
+                  />
+                </div>
+              </ImgContainer>
+            </div>
+          ))}
+      </div>
 
       {selectedProject && <ProjectDetails project={selectedProject} />}
     </section>
