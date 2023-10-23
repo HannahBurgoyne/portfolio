@@ -17,13 +17,13 @@
       "Superagent",
       "Vite"
       ],
-      "deployed link": "https://flashcards-app-oir7.onrender.com/", 
-      "repo link": "https://github.com/HannahBurgoyne/flashcards-app"
+      "deployedLink": "https://flashcards-app-oir7.onrender.com/", 
+      "repoLink": "https://github.com/HannahBurgoyne/flashcards-app"
     },
     {
       "id": 2,
       "name": "Messaging App",
-      "image": "/assets/flashcards.PNG",
+      "image": "/assets/messagingapp.PNG",
       "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project. I learnt how to incorporate websockets into a fullstack application, set up local storage client-side, create a reverse-proxy server on my local machine to handle socket requests with Nginx, and reinforced my learnings around prop-drilling state management in React and styling with Tailwind CSS.",
       "tech": [
         "Node.js",
@@ -35,13 +35,13 @@
         "Express",
         "Vite"
         ],
-      "deployed link": "https://messaging-app-websockets.up.railway.app/", 
+      "deployedLink": "https://messaging-app-websockets.up.railway.app/", 
       "repo link":  "https://github.com/HannahBurgoyne/messaging-app"
     },
     {
       "id": 3,
       "name": "Todo Fullstack",
-      "image": "/assets/flashcards.PNG",
+      "image": "/assets/todos.PNG",
       "description": "This is a Dev Academy Aotearoa project which I was challenged to finish and deploy. I was given an existing boilerplate and styling, and used this to build a fullstack application which shows a user a list of 'todos', or tasks and the status of those tasks. Once I finished developing the app, I deployed it using Dokku. This was my first time deploying a project. It was also my first time building a fullstack application from scratch, and I learnt how to prop-drill data into subcomponents in React, querying and mutating data with ReactQuery, how to prepare an application for deployment (particularly how an app is built for production), and how to deploy with Dokku.",
       "tech": [
         "Node.js",
@@ -56,15 +56,15 @@
         "Vite", 
         "Dokku"
         ],
-      "deployed link": "https://todo-fullstack.up.railway.app/", 
-      "repo link": "https://github.com/HannahBurgoyne/todo-fullstack"
+      "deployedLink": "https://todo-fullstack.up.railway.app/", 
+      "repoLink": "https://github.com/HannahBurgoyne/todo-fullstack"
     },
     {
       "id": 4,
       "name": "Crew",
-      "image": "/assets/flashcards.PNG",
+      "image": "/assets/crew.PNG",
       "description": "Crew is a social media app which I created in collaboration with my team for our final group project at Dev Academy Aotearoa final group project which I created in collaboration with my team. As Git Lead for the project, I was responsible for managing all branches in our Github repo. I set up a project board and ticketing system for our team, reviewed and merged all of the team's pull requests into the main branch, resolved merge conflicts and created hotfixes for bugs. Alongside this I worked on key features for the project, such as user authentication with Auth0, image-uploading using Multer, and querying databases with many-to-many relationships to achieve our RSVPs stretch goal.",
-      "repo link": "https://github.com/matai-2023/crew"
+      "repoLink": "https://github.com/matai-2023/crew"
     
     }
   ]
