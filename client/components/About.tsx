@@ -4,10 +4,12 @@ export default function About() {
   return (
     <section className="p-10">
       <h2 className="text-white text-center p-4">About me</h2>
-      <div className="flex flex-col">
-        <ImgContainer>
-          <img src="/assets/profile_headshot.jpg" className="w-64 rounded-md" />
-        </ImgContainer>
+      <div className="flex flex-col justify-center items-center">
+        <img
+          src="/assets/profile_headshot.jpg"
+          className="w-64 rounded-md mb-8"
+        />
+
         <div>
           <p className="text-white">
             Kia ora! I recently graduated from Dev Academy Aotearoa, where I
