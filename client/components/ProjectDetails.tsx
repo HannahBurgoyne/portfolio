@@ -9,7 +9,7 @@ export default function ProjectDetails(props: Props) {
   const { project } = props
 
   return (
-    <div className="border-[#333333] bg-black p-10 border-solid rounded shadow-lg shadow-pink-700/40 border-2 flex flex-col items-center justify-center">
+    <div className="border-[#333333] text-white bg-black/50 p-10 border-solid rounded shadow-lg shadow-pink-700/40 border-2 flex flex-col items-center justify-center">
       <h2>{project.name}</h2>
       <img
         src={`${project.image}`}
