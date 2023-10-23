@@ -17,9 +17,11 @@ export default function ProjectDetails(props: Props) {
       />
       <p>{project.description}</p>
       <div className="py-10 flex flex-col justify-center items-center">
-        <Button>
-          <a href={`${project.deployedLink}`}>Try out demo</a>
-        </Button>
+        {project.deployedLink && (
+          <Button>
+            <a href={`${project.deployedLink}`}>Try out demo</a>
+          </Button>
+        )}
         <Button>
           <a href={`${project.repoLink}`}>View code</a>
         </Button>
