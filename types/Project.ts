@@ -4,7 +4,7 @@ export interface Project {
   image: string
   description: string
   tech: string[]
-  deployedLink: string | null
+  deployedLink?: string | null
   repoLink: string
 }
 
