@@ -22,8 +22,8 @@ export default function Projects() {
     <section className="p-10">
       <h2 className="text-white text-center p-4">Projects</h2>
       <p className="text-white">
-        This is a selection of projects I've worked on recently. Please click on
-        a project to see further details and links.
+        Below is a selection of projects I've worked on recently. Please click
+        on a project to see further details and links.
       </p>
       <div className="grid grid-cols-2 gap-4">
         {data &&
