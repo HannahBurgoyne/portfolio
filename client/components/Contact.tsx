@@ -8,7 +8,7 @@ export default function Contact() {
         <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full ">
           <img
             className="w-11 m-2"
-            src="/assets/github-mark-white.png"
+            src="/images/github-mark-white.png"
             alt="Github"
           />
           <a href="https://github.com/HannahBurgoyne">
@@ -18,7 +18,7 @@ export default function Contact() {
         <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full">
           <img
             className="w-10 m-2"
-            src="/assets/In-White-128.png"
+            src="/images/In-White-128.png"
             alt="LinkedIn"
           />
           <a href="https://www.linkedin.com/in/hannah-burgoyne-1311b5160/">

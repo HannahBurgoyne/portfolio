@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Flashcards App",
-      "image": "images/flashcards.PNG",
+      "image": "/images/flashcards.PNG",
       "description": "This project allows a user to create and use their own custom flashcards. I originally built this in HTML, CSS, and JavaScript in week 6 of Foundations at Dev Academy Aotearoa, and then recreated the entire project as a fullstack application in week 7 of Bootcamp. While building this app, I learnt how to incorporate JavaScript logic into React and React Query, reinforced my learning on prop drilling and state management in React, learnt how to create and query relational SQLite3 databases with many to many relationships, built my first dynamic form in React, and worked with the framer-motion npm package for the first time. While deploying this app, also I learnt how to refactor my code to query my production database, which was migrated to PostgreSQL.",
       "tech": [
       "Node.js",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "Messaging App",
-      "image": "images/messagingapp.PNG",
+      "image": "/images/messagingapp.PNG",
       "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project. I learnt how to incorporate websockets into a fullstack application, set up local storage client-side, create a reverse-proxy server on my local machine to handle socket requests with Nginx, and reinforced my learnings around prop-drilling state management in React and styling with Tailwind CSS.",
       "tech": [
         "Node.js",
@@ -41,7 +41,7 @@
     {
       "id": 3,
       "name": "Todo Fullstack",
-      "image": "images/todos.PNG",
+      "image": "/images/todos.PNG",
       "description": "This is a Dev Academy Aotearoa project which I was challenged to finish and deploy. I was given an existing boilerplate and styling, and used this to build a fullstack application which shows a user a list of 'todos', or tasks and the status of those tasks. Once I finished developing the app, I deployed it using Dokku. This was my first time deploying a project. It was also my first time building a fullstack application from scratch, and I learnt how to prop-drill data into subcomponents in React, querying and mutating data with ReactQuery, how to prepare an application for deployment (particularly how an app is built for production), and how to deploy with Dokku.",
       "tech": [
         "Node.js",
@@ -62,7 +62,7 @@
     {
       "id": 4,
       "name": "Crew",
-      "image": "images/crew.PNG",
+      "image": "/images/crew.PNG",
       "description": "Crew is a social media app which I created in collaboration with my team for our final group project at Dev Academy Aotearoa final group project which I created in collaboration with my team. As Git Lead for the project, I was responsible for managing all branches in our Github repo. I set up a project board and ticketing system for our team, reviewed and merged all of the team's pull requests into the main branch, resolved merge conflicts and created hotfixes for bugs. Alongside this I worked on key features for the project, such as user authentication with Auth0, image-uploading using Multer, and querying databases with many-to-many relationships to achieve our RSVPs stretch goal.",
       "repoLink": "https://github.com/matai-2023/crew"
     
