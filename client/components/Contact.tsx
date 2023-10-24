@@ -1,77 +1,42 @@
-import { useState } from 'react'
 import Button from './UI/Button'
-import nodemailer from 'nodemailer'
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
-
-  function handleChange(
-    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
-  ) {
-    const { name, value } = e.target
-    setFormData({ ...formData, [name]: value })
-  }
-
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-
-    // Send formData to your server for email processing
-    // You'll need server-side code to handle the email sending.
-    const emailData = {
-      name: formData.name,
-      email: formData.email,
-      message: formData.message,
-    }
-
-    alert('Message sent!') // Replace this with your server-side code
-
-    // Clear the form
-    setFormData({ name: '', email: '', message: '' })
-  }
-
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="mb-20">Contact Me</h1>
-      <form
-        onSubmit={handleSubmit}
-        className="border border-[1px] rounded-md p-8 flex flex-col justify-center items-center w-96"
-      >
-        <input
-          className="border border-[1px] rounded-md bg-black text-white p-2"
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <input
-          className="border border-[1px] rounded-md bg-black text-white p-2"
-          type="email"
-          placeholder="Email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <br />
-        <textarea
-          className="border border-[1px] rounded-md bg-black text-white w-48 h-48 p-2"
-          id="message"
-          placeholder="Message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <br />
-        <Button>
-          <input type="submit" value="Send Message" />
-        </Button>
-      </form>
-    </div>
+    <section className="flex flex-col justify-center items-center">
+      <h1 className="mb-12">Contact Me</h1>
+      <ul className="flex flex-col justify-center items-start pb-10 w-full">
+        <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full ">
+          <img className="w-11 m-2" src="/assets/github-mark-white.png" />
+          <a href="https://github.com/HannahBurgoyne">
+            https://github.com/HannahBurgoyne
+          </a>
+        </li>
+        <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full">
+          <img className="w-10 m-2" src="/assets/In-White-128.png" />
+          <a href="https://www.linkedin.com/in/hannah-burgoyne-1311b5160/">
+            https://www.linkedin.com/in/hannah-burgoyne-1311b5160/
+          </a>
+        </li>
+        <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-12 h-12 m-2"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+            />
+          </svg>
+          <a href="mailto: hannah.burgoyne@gmail.com">
+            hannah.burgoyne@gmail.com
+          </a>
+        </li>
+      </ul>
+    </section>
   )
 }
