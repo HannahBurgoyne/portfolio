@@ -36,7 +36,7 @@
         "Vite"
         ],
       "deployedLink": "https://messaging-app-websockets.up.railway.app/", 
-      "repo link":  "https://github.com/HannahBurgoyne/messaging-app"
+      "repoLink":  "https://github.com/HannahBurgoyne/messaging-app"
     },
     {
       "id": 3,
@@ -64,6 +64,20 @@
       "name": "Crew",
       "image": "/images/crew.PNG",
       "description": "Crew is a social media app which I created in collaboration with my team for our final group project at Dev Academy Aotearoa final group project which I created in collaboration with my team. As Git Lead for the project, I was responsible for managing all branches in our Github repo. I set up a project board and ticketing system for our team, reviewed and merged all of the team's pull requests into the main branch, resolved merge conflicts and created hotfixes for bugs. Alongside this I worked on key features for the project, such as user authentication with Auth0, image-uploading using Multer, and querying databases with many-to-many relationships to achieve our RSVPs stretch goal.",
+      "tech": [
+        "Node.js", 
+        "React", 
+        "ReactQuery", 
+        "TypeScript", 
+        "Tailwind CSS", 
+        "Knex", 
+        "SQLite3", 
+        "Express", 
+        "Superagent", 
+        "Vite", 
+        "Vitest", 
+        "Multer"
+      ],
       "repoLink": "https://github.com/matai-2023/crew"
     
     }

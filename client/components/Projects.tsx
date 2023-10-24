@@ -4,17 +4,16 @@ import { fetchProjects } from '../apiClient'
 import { useState } from 'react'
 import ProjectDetails from './ProjectDetails'
 import { Project } from '../../types/Project'
+import data from '../../server/data/data.json'
 
 export default function Projects() {
-  const { data } = useQuery(['projects'], fetchProjects)
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
 
-  // Define the handleClick function
   function handleClick(project: Project) {
     if (selectedProject === project) {
-      setSelectedProject(null) // If the same project is clicked again, hide the details
+      setSelectedProject(null)
     } else {
-      setSelectedProject(project) // Show the details for the clicked project
+      setSelectedProject(project)
     }
   }
 
