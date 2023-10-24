@@ -6,7 +6,7 @@
   "description": "A portfolio for my software development projects and reflections",
   "scripts": {
     "start": "node ./dist/server.js",
-    "dev": "run-p dev:server dev:client dev:css",
+    "dev": "run-p dev:*",
     "dev:server": "tsx watch server/index.ts",
     "dev:client": "vite",
     "dev:css": "tailwindcss -i client/styles/input.css -o public/output.css --watch",
