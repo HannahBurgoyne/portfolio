@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 5px;
+  }
+}
