@@ -4,26 +4,34 @@ export default function Header() {
       <ul className="text-white list-none flex justify-between items-center mx-20 ">
         <li>
           <a href="https://github.com/HannahBurgoyne">
-            <img src="assets/github-mark-white.png" className="w-12" />
+            <img
+              src="assets/github-mark-white.png"
+              alt="Github"
+              className="w-12"
+            />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/hannah-burgoyne-1311b5160/">
             <img
               src="assets/In-White-128.png"
+              alt="LinkedIn"
               className="w-10  hover:shadow-pink-700/40 hover:shadow-lg transition duration-300"
             />
           </a>
         </li>
         <li>
-          <a href="mailto:hannah.burgoyne@gmail.com">
+          <a
+            href="mailto:hannah.burgoyne@gmail.com"
+            aria-label="click here to email me"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-12 h-12 m-2"
+              className="w-12 h-12 m-2 hover:text-white"
             >
               <path
                 strokeLinecap="round"
