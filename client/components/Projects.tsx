@@ -1,6 +1,4 @@
-import { useQuery } from '@tanstack/react-query'
 import ImgContainer from './UI/ImgContainer'
-import { fetchProjects } from '../apiClient'
 import { useState } from 'react'
 import ProjectDetails from './ProjectDetails'
 import { Project } from '../../types/Project'
