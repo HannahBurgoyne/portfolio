@@ -2,7 +2,7 @@ import ImgContainer from './UI/ImgContainer'
 
 export default function About() {
   return (
-    <section className="p-10">
+    <section id="about" className="p-10">
       <h2 className="text-white text-center p-4">About me</h2>
       <div className="flex flex-col justify-center items-center">
         <img

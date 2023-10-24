@@ -16,7 +16,7 @@ export default function Projects() {
   }
 
   return (
-    <section className="p-10">
+    <section id="projects" className="p-10">
       <h2 className="text-white text-center p-4">Projects</h2>
       <p className="text-white">
         Below is a selection of projects I've worked on recently. Please click
