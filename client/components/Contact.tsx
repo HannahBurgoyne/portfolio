@@ -3,7 +3,7 @@ import Button from './UI/Button'
 export default function Contact() {
   return (
     <section className="flex flex-col justify-center items-center">
-      <h1 className="mb-12">Contact Me</h1>
+      <h2 className="mb-12">Contact Me</h2>
       <ul className="flex flex-col justify-center items-start pb-10 w-full">
         <li className="flex justify-start items-center border-solid border-[1px] border-[#333333] rounded-md p-4 m-2 w-full ">
           <img className="w-11 m-2" src="/assets/github-mark-white.png" />

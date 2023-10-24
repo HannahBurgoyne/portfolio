@@ -10,8 +10,8 @@ export default function LandingPage() {
     <>
       <div className="mx-auto max-w-screen-xl">
         <section className="flex flex-col justify-center items-center m-20">
-          <h1 className="text-white text-2xl">Hannah Burgoyne</h1>
-          <h3 className="text-white text-xl">Software Developer</h3>
+          <h1 className="text-white">Hannah Burgoyne</h1>
+          <h3 className="text-white">Software Developer</h3>
         </section>
         <Menu />
 
