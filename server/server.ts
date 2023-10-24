@@ -2,6 +2,9 @@ import * as Path from 'node:path'
 import express from 'express'
 import projects from './projects'
 import nodemailer from 'nodemailer'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const server = express()
 
