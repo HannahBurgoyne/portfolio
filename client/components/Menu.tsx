@@ -1,4 +1,3 @@
-import Button from './UI/Button'
 import JumpToSection from './UI/JumpToSection'
 
 export default function Menu() {
