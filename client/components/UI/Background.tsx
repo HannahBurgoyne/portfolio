@@ -4,7 +4,7 @@ interface Props {
 
 function Background(props: Props) {
   return (
-    <div className="inset-0 -z-10 h-full w-full items-center px-24 py-8 bg-black">
+    <div className="inset-0 -z-10 h-full w-full items-center px-24 py-8 bg-slate-950">
       {props.children}
     </div>
   )
