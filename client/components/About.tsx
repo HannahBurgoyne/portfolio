@@ -7,6 +7,7 @@ export default function About() {
       <div className="flex flex-col justify-center items-center">
         <img
           src="/assets/profile_headshot.jpg"
+          alt="a person in their late 20s smiling at the camera"
           className="w-64 rounded-md mb-8"
         />
 
