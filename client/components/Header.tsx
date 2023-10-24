@@ -5,7 +5,7 @@ export default function Header() {
         <li>
           <a href="https://github.com/HannahBurgoyne">
             <img
-              src="assets/github-mark-white.png"
+              src="images/github-mark-white.png"
               alt="Github"
               className="w-12"
             />
@@ -14,7 +14,7 @@ export default function Header() {
         <li>
           <a href="https://www.linkedin.com/in/hannah-burgoyne-1311b5160/">
             <img
-              src="assets/In-White-128.png"
+              src="images/In-White-128.png"
               alt="LinkedIn"
               className="w-10  hover:shadow-pink-700/40 hover:shadow-lg transition duration-300"
             />
