@@ -9,7 +9,7 @@ export default function ProjectDetails(props: Props) {
   const { project } = props
 
   return (
-    <div className="border-[#333333] text-white bg-black/50 p-10 border-solid rounded shadow-lg shadow-pink-700/40 border-[1px] flex flex-col items-center justify-center">
+    <div className="border-[#333333] text-white bg-slate-900 p-10 border-solid rounded shadow-lg shadow-pink-700/40 border-[1px] flex flex-col items-center justify-center">
       <h2>{project.name}</h2>
       <img
         src={`${project.image}`}
@@ -19,11 +19,21 @@ export default function ProjectDetails(props: Props) {
       <div className="py-10 flex flex-col justify-center items-center">
         {project.deployedLink && (
           <Button>
-            <a href={`${project.deployedLink}`}>Try out demo</a>
+            <a
+              className="hover:text-white hover:no-underline"
+              href={`${project.deployedLink}`}
+            >
+              Try out demo
+            </a>
           </Button>
         )}
         <Button>
-          <a href={`${project.repoLink}`}>View code</a>
+          <a
+            className="hover:text-white hover:no-underline"
+            href={`${project.repoLink}`}
+          >
+            View code
+          </a>
         </Button>
       </div>
     </div>
