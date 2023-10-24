@@ -5,34 +5,6 @@ export default {
   media: false,
   theme: {
     extend: {
-      typography: {
-        default: {
-          css: {
-            h1: {
-              fontFamily: ['Rubik', 'sans-serif'],
-              fontWeight: '500',
-              fontSize: '40px',
-            },
-            h2: {
-              fontFamily: ['Rubik', 'sans-serif'],
-              fontWeight: '400',
-              fontSize: '30px',
-            },
-            p: {
-              fontFamily: ['Rubik', 'sans-serif'],
-              fontWeight: '300',
-              fontSize: '18px',
-              leading: 'loose',
-            },
-            boxShadow: {},
-          },
-        },
-        variants: {
-          extend: {},
-        },
-
-        plugins: [require('@tailwindcss/typography')],
-      },
       spacing: {
         padding: '40px',
       },
