@@ -1,3 +1,4 @@
+import Button from './UI/Button'
 import ImgContainer from './UI/ImgContainer'
 
 export default function About() {
@@ -10,6 +11,15 @@ export default function About() {
           alt="a person in their late 20s smiling at the camera"
           className="w-64 rounded-md mb-8"
         />
+        <Button targetSectionId={''}>
+          <a
+            href="/images/Hannah_Burgoyne_CV_2023.pdf"
+            className="hover:text-white hover:no-underline"
+            aria-label="link opens as PDF document"
+          >
+            Download my CV
+          </a>
+        </Button>
 
         <div>
           <p className="text-white">

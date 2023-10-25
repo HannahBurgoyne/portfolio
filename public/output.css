@@ -809,11 +809,6 @@ a:hover {
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[conic-gradient\(from_90deg_at_50\%_50\%\2c \#fce7f3_0\%\2c \#be185d_50\%\2c \#fce7f3_100\%\)\] {
   background-image: conic-gradient(from 90deg at 50% 50%,#fce7f3 0%,#be185d 50%,#fce7f3 100%);
 }
