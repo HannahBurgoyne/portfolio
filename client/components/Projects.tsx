@@ -18,12 +18,14 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" className="p-10">
-      <h2 className="text-white text-center p-4">Projects</h2>
-      <p className="text-white">
-        Below is a selection of projects I've worked on recently. Please click
-        on a project to see further details and links.
-      </p>
+    <section id="projects" className="lg:p-10 sm:p-2">
+      <div className="flex flex-col px-10 justify-center items-center">
+        <h2 className="text-white text-center p-4">Projects</h2>
+        <p className="">
+          Below is a selection of projects I've worked on recently. Please click
+          on a project to see further details and links.
+        </p>
+      </div>
       {projectClicked ? (
         <div>
           {selectedProject && (
