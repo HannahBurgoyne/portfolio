@@ -435,6 +435,7 @@ h1,
   a,
   li {
   font-family: 'Rubik', sans-serif;
+  color: white;
 }
 
 h1 {
@@ -653,16 +654,12 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .mr-2 {
@@ -685,8 +682,16 @@ img {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-\[100\%\] {
@@ -701,24 +706,16 @@ img {
   height: 100%;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
 
-.w-11 {
-  width: 2.75rem;
-}
-
 .w-12 {
   width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-\[100\%\] {
@@ -729,8 +726,8 @@ img {
   width: 100%;
 }
 
-.w-8 {
-  width: 2rem;
+.max-w-\[your-max-width\] {
+  max-width: your-max-width;
 }
 
 .max-w-screen-sm {
@@ -739,14 +736,6 @@ img {
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-\[your-max-width\] {
-  max-width: your-max-width;
-}
-
-.max-w-sm {
-  max-width: 24rem;
 }
 
 @keyframes spin {
@@ -785,20 +774,8 @@ img {
   flex-direction: column;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -827,10 +804,6 @@ img {
 
 .whitespace-normal {
   white-space: normal;
-}
-
-.break-words {
-  overflow-wrap: break-word;
 }
 
 .rounded {
@@ -901,6 +874,11 @@ img {
   padding: 1px;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -914,26 +892,6 @@ img {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-10 {
@@ -956,11 +914,6 @@ img {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .shadow-\[0_1000px_0_0_hsl\(0_0\%_20\%\)_inset\] {
@@ -1095,28 +1048,8 @@ img {
 }
 
 @media (min-width: 640px) {
-  .sm\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .sm\:inline {
     display: inline;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:max-w-xs {
-    max-width: 20rem;
-  }
-
-  .sm\:max-w-\[3rem\] {
-    max-width: 3rem;
-  }
-
-  .sm\:max-w-\[3px\] {
-    max-width: 3px;
   }
 
   .sm\:grid-cols-1 {
@@ -1127,16 +1060,12 @@ img {
     justify-content: flex-start;
   }
 
-  .sm\:p-2 {
-    padding: 0.5rem;
-  }
-
-  .sm\:p-8 {
-    padding: 2rem;
-  }
-
   .sm\:p-10 {
     padding: 2.5rem;
+  }
+
+  .sm\:p-2 {
+    padding: 0.5rem;
   }
 
   .sm\:p-4 {
@@ -1148,9 +1077,9 @@ img {
     padding-right: 0.25rem;
   }
 
-  .sm\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .sm\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .sm\:py-2 {
@@ -1158,56 +1087,16 @@ img {
     padding-bottom: 0.5rem;
   }
 
-  .sm\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
-  .sm\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .sm\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
-  .sm\:text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-
-  .sm\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
 }
 
 @media (min-width: 768px) {
-  .md\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .md\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
   }
 }
 
@@ -1236,10 +1125,5 @@ img {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 }
