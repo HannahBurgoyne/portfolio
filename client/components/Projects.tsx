@@ -22,7 +22,7 @@ export default function Projects() {
         Below is a selection of projects I've worked on recently. Please click
         on a project to see further details and links.
       </p>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 lg:gap-4 sm:grid-cols-1 lg:gap-0">
         {data &&
           data.projects?.map((project) => (
             <div key={project.id}>

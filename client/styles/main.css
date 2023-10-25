@@ -18,16 +18,25 @@
   h1 {
     font-weight: 500;
     font-size: 40px;
+    @media (max-width: 640px) {
+      font-size: 25px;
+    }
   }
 
   h2 {
     font-weight: 400;
     font-size: 30px;
+    @media (max-width: 640px) {
+      font-size: 20px;
+    }
   }
 
   h3 {
     font-weight: 400;
     font-size: 25px;
+    @media (max-width: 640px) {
+      font-size: 18px;
+    }
   }
 
   p {
@@ -35,10 +44,19 @@
     font-size: 18px;
     line-height: 1.5em;
     padding: 5px;
+    @media (min-width: 640px) {
+      font-size: 20px;
+    }
   }
 
   a:hover {
     text-decoration: underline;
     color: #be185d;
+  }
+
+  img {
+    @media (max-width: 640px) {
+      max-width: 20rem;
+    }
   }
 }
