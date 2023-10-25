@@ -1,5 +1,3 @@
-import { HtmlHTMLAttributes } from 'react'
-
 interface Props {
   children: React.ReactNode
   targetSectionId: string
