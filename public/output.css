@@ -966,6 +966,26 @@ img {
           mask: linear-gradient(white, transparent 50%);
 }
 
+.\[mask\:linear-gradient\(grey\2c _transparent_50\%\)\] {
+  -webkit-mask: linear-gradient(grey, transparent 50%);
+          mask: linear-gradient(grey, transparent 50%);
+}
+
+.\[mask\:linear-gradient\(blue\2c _transparent_50\%\)\] {
+  -webkit-mask: linear-gradient(blue, transparent 50%);
+          mask: linear-gradient(blue, transparent 50%);
+}
+
+.\[mask\:linear-gradient\(lightgrey\2c _transparent_50\%\)\] {
+  -webkit-mask: linear-gradient(lightgrey, transparent 50%);
+          mask: linear-gradient(lightgrey, transparent 50%);
+}
+
+.\[mask\:linear-gradient\(\#666\2c _transparent_50\%\)\] {
+  -webkit-mask: linear-gradient(#666, transparent 50%);
+          mask: linear-gradient(#666, transparent 50%);
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1002,6 +1022,21 @@ img {
 .before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c white_360deg\)\]::before {
   content: var(--tw-content);
   background-image: conic-gradient(from 0deg,transparent 0 340deg,white 360deg);
+}
+
+.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c blue_360deg\)\]::before {
+  content: var(--tw-content);
+  background-image: conic-gradient(from 0deg,transparent 0 340deg,blue 360deg);
+}
+
+.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c lightgrey_360deg\)\]::before {
+  content: var(--tw-content);
+  background-image: conic-gradient(from 0deg,transparent 0 340deg,lightgrey 360deg);
+}
+
+.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c \#666_360deg\)\]::before {
+  content: var(--tw-content);
+  background-image: conic-gradient(from 0deg,transparent 0 340deg,#666 360deg);
 }
 
 .before\:content-\[\'\'\]::before {
