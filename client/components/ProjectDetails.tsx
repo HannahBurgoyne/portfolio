@@ -17,7 +17,11 @@ export default function ProjectDetails(props: Props) {
   return (
     <div className="border-[#333333] text-white bg-slate-900 p-10 border-solid rounded shadow-lg shadow-pink-700/40 border-[1px] relative">
       <div className="absolute top-0 right-0 p-3">
-        <span onClick={handleClick} className="material-symbols-outlined">
+        <span
+          onClick={handleClick}
+          className="material-symbols-outlined cursor-pointer"
+          aria-label="click here to close project details"
+        >
           close
         </span>
       </div>
@@ -25,6 +29,7 @@ export default function ProjectDetails(props: Props) {
         <h2>{project.name}</h2>
         <img
           src={`${project.image}`}
+          alt={`Screenshot of ${project.name}`}
           className="my-6 border-2 border-white rounded-md"
         />
         <p>{project.description}</p>

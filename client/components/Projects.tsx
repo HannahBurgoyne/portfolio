@@ -40,7 +40,10 @@ export default function Projects() {
             data.projects?.map((project) => (
               <div key={project.id}>
                 <ImgContainer>
-                  <div onClick={() => handleClick(project)}>
+                  <div
+                    className="cursor-pointer"
+                    onClick={() => handleClick(project)}
+                  >
                     <h2 className="text-white">{project.name}</h2>
                     <img
                       className="w-18 h-auto"
