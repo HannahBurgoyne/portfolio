@@ -654,6 +654,11 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -726,6 +731,18 @@ img {
   width: 100%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-max {
+  min-width: max-content;
+}
+
 .max-w-\[your-max-width\] {
   max-width: your-max-width;
 }
@@ -736,6 +753,10 @@ img {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 @keyframes spin {
@@ -766,12 +787,28 @@ img {
   list-style-type: none;
 }
 
+.columns-4 {
+  columns: 4;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -784,6 +821,14 @@ img {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -874,6 +919,14 @@ img {
   padding: 1px;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -961,26 +1014,6 @@ img {
   transition-duration: 300ms;
 }
 
-.\[mask\:linear-gradient\(white\2c _transparent_50\%\)\] {
-  -webkit-mask: linear-gradient(white, transparent 50%);
-          mask: linear-gradient(white, transparent 50%);
-}
-
-.\[mask\:linear-gradient\(grey\2c _transparent_50\%\)\] {
-  -webkit-mask: linear-gradient(grey, transparent 50%);
-          mask: linear-gradient(grey, transparent 50%);
-}
-
-.\[mask\:linear-gradient\(blue\2c _transparent_50\%\)\] {
-  -webkit-mask: linear-gradient(blue, transparent 50%);
-          mask: linear-gradient(blue, transparent 50%);
-}
-
-.\[mask\:linear-gradient\(lightgrey\2c _transparent_50\%\)\] {
-  -webkit-mask: linear-gradient(lightgrey, transparent 50%);
-          mask: linear-gradient(lightgrey, transparent 50%);
-}
-
 .\[mask\:linear-gradient\(\#666\2c _transparent_50\%\)\] {
   -webkit-mask: linear-gradient(#666, transparent 50%);
           mask: linear-gradient(#666, transparent 50%);
@@ -1017,21 +1050,6 @@ img {
 .before\:animate-rotate::before {
   content: var(--tw-content);
   animation: rotate 3s linear infinite both;
-}
-
-.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c white_360deg\)\]::before {
-  content: var(--tw-content);
-  background-image: conic-gradient(from 0deg,transparent 0 340deg,white 360deg);
-}
-
-.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c blue_360deg\)\]::before {
-  content: var(--tw-content);
-  background-image: conic-gradient(from 0deg,transparent 0 340deg,blue 360deg);
-}
-
-.before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c lightgrey_360deg\)\]::before {
-  content: var(--tw-content);
-  background-image: conic-gradient(from 0deg,transparent 0 340deg,lightgrey 360deg);
 }
 
 .before\:bg-\[conic-gradient\(from_0deg\2c transparent_0_340deg\2c \#666_360deg\)\]::before {
@@ -1089,6 +1107,10 @@ img {
 
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .sm\:justify-start {

@@ -1,5 +1,6 @@
 import { Project } from '../../types/Project'
 import Button from './UI/Button'
+import Label from './UI/Label'
 
 interface Props {
   projectClicked: boolean
@@ -33,6 +34,13 @@ export default function ProjectDetails(props: Props) {
           className="my-6 border-2 border-white rounded-md"
         />
         <p>{project.description}</p>
+      </div>
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-4 gap-4">
+        {project.tech.map((item) => (
+          <ul className="overflow-wrap">
+            <Label>{item}</Label>
+          </ul>
+        ))}
       </div>
       <div className="py-10 flex flex-col justify-center items-center">
         {project.deployedLink && (
