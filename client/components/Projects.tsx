@@ -18,16 +18,16 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" className="lg:p-10 sm:p-2">
-      <div className="flex flex-col px-10 justify-center items-center">
-        <h2 className="text-white text-center p-4">Projects</h2>
-        <p className="">
+    <section id="projects" className="p-4 sm:p-10 flex flex-col items-center">
+      <div className="flex flex-col justify-center items-center inset-40">
+        <h2 className="flex items-center justify-center p-4">Projects</h2>
+        <p className="mx-5 flex items-center justify-center">
           Below is a selection of projects I've worked on recently. Please click
           on a project to see further details and links.
         </p>
       </div>
       {projectClicked ? (
-        <div>
+        <div className="flex flex-col justify-center items-center p-4 sm:p-10 ">
           {selectedProject && (
             <ProjectDetails
               project={selectedProject}
@@ -37,18 +37,18 @@ export default function Projects() {
           )}
         </div>
       ) : (
-        <div className="grid lg:grid-cols-2 lg:gap-4 sm:grid-cols-1">
+        <div className="grid lg:grid-cols-2 lg:gap-4 sm:grid-cols-1 sm:p-10">
           {data &&
             data.projects?.map((project) => (
               <div key={project.id}>
                 <ImgContainer>
                   <div
-                    className="cursor-pointer"
+                    className="cursor-pointer flex flex-col justify-center items-center"
                     onClick={() => handleClick(project)}
                   >
                     <h2 className="text-white">{project.name}</h2>
                     <img
-                      className="w-18 h-auto"
+                      className="w-[70%] sm:w-42 h-auto"
                       src={project.image}
                       alt={`Image for ${project.name}`}
                     />

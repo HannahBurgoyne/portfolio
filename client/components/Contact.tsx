@@ -3,7 +3,7 @@ export default function Contact() {
     <section id="contact" className="p-4 sm:p-10 flex flex-col items-center">
       <h2 className="text-xl sm:text-2xl mb-4">Contact Me</h2>
       <ul className="space-y-4 w-full">
-        <li className="border border-[1px] border-[#333333] rounded-md p-3 sm:p-4 text-center">
+        <li className="border border-[#333333] rounded-md p-3 sm:p-4 text-center">
           <div className="flex items-center justify-center sm:justify-start">
             <a href="https://github.com/HannahBurgoyne">
               <img
@@ -20,7 +20,7 @@ export default function Contact() {
             </a>
           </div>
         </li>
-        <li className="border border-[1px] border-[#333333] rounded-md p-3 sm:p-4 text-center">
+        <li className="border border-[#333333] rounded-md p-3 sm:p-4 text-center">
           <div className="flex items-center justify-center sm:justify-start">
             <a href="https://www.linkedin.com/in/hannah-burgoyne-1311b5160/">
               <img
@@ -37,7 +37,7 @@ export default function Contact() {
             </a>
           </div>
         </li>
-        <li className="border border-[1px] border-[#333333] rounded-md p-3 sm:p-4 text-center">
+        <li className="border border-[#333333] rounded-md p-3 sm:p-4 text-center">
           <div className="flex items-center justify-center sm:justify-start">
             <a href="mailto: hannah.burgoyne@gmail.com" aria-label="Email me">
               <svg
