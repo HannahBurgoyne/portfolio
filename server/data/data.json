@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Flashcards App",
       "image": "/images/flashcards.PNG",
-      "description": "This project allows a user to create and use their own custom flashcards. I originally built this in HTML, CSS, and JavaScript in week 6 of Foundations at Dev Academy Aotearoa, and then recreated the entire project as a fullstack application in week 7 of Bootcamp. While building this app, I learnt how to incorporate JavaScript logic into React and React Query, reinforced my learning on prop drilling and state management in React, learnt how to create and query relational SQLite3 databases with many to many relationships, built my first dynamic form in React, and worked with the framer-motion npm package for the first time. While deploying this app, also I learnt how to refactor my code to query my production database, which was migrated to PostgreSQL.",
+      "description": "This project allows a user to create and use their own custom flashcards. I originally built this in HTML, CSS, and JavaScript in week 6 of Foundations at Dev Academy Aotearoa, and then recreated the entire project as a fullstack application in week 7 of Bootcamp. While building this app, I learnt how to incorporate JavaScript logic into React and React Query, reinforced my learning on prop drilling and state management in React, learnt how to create and query relational SQLite3 databases with many to many relationships, built my first dynamic form in React, and worked with the framer-motion npm package for the first time. While deploying this app, also I learnt how to refactor my code to query my production database as I migrated it to PostgreSQL.",
       "tech": [
       "Node.js",
       "React",
@@ -63,7 +63,7 @@
       "id": 4,
       "name": "Crew",
       "image": "/images/crew.PNG",
-      "description": "Crew is a social media app which I created in collaboration with my team for our final group project at Dev Academy Aotearoa final group project which I created in collaboration with my team. As Git Lead for the project, I was responsible for managing all branches in our Github repo. I set up a project board and ticketing system for our team, reviewed and merged all of the team's pull requests into the main branch, resolved merge conflicts and created hotfixes for bugs. Alongside this I worked on key features for the project, such as user authentication with Auth0, image-uploading using Multer, and querying databases with many-to-many relationships to achieve our RSVPs stretch goal.",
+      "description": "Crew is a social media app which I created in collaboration with my team for our final group project at Dev Academy Aotearoa. As Git Lead for the project, I was responsible for managing all branches in our Github repo. I set up a project board and ticketing system for our team, reviewed and merged all of the team's pull requests into the main branch, resolved merge conflicts and created hotfixes for bugs. Alongside this I worked on key features for the project, such as user authentication with Auth0, image-uploading using Multer, and querying databases with many-to-many relationships to achieve our RSVPs stretch goal.",
       "tech": [
         "Node.js", 
         "React", 
