@@ -13,7 +13,7 @@ export default function About() {
         />
         <Button targetSectionId={''}>
           <a
-            href="/images/Hannah_Burgoyne_CV_2023.pdf"
+            href="/images/Hannah_Burgoyne_CV_2024.pdf"
             className="hover:text-white hover:no-underline"
             aria-label="link opens as PDF document"
           >
