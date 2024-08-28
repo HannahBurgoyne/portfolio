@@ -2,26 +2,6 @@
   "projects": [
     {
       "id": 1,
-      "name": "Flashcards App",
-      "image": "/images/flashcards.PNG",
-      "description": "This project allows a user to create and use their own custom flashcards. I originally built this in HTML, CSS, and JavaScript in week 6 of Foundations at Dev Academy Aotearoa, and then recreated the entire project as a fullstack application in week 7 of Bootcamp. While building this app, I learnt how to incorporate JavaScript logic into React and React Query, reinforced my learning on prop drilling and state management in React, learnt how to create and query relational SQLite3 databases with many to many relationships, built my first dynamic form in React, and worked with the framer-motion npm package for the first time. While deploying this app, also I learnt how to refactor my code to query my production database as I migrated it to PostgreSQL.",
-      "tech": [
-      "Node.js",
-      "React",
-      "ReactQuery",
-      "TypeScript",
-      "CSS",
-      "Knex",
-      "SQLite3",
-      "Express",
-      "Superagent",
-      "Vite"
-      ],
-      "deployedLink": "https://flashcards-app-production.up.railway.app/", 
-      "repoLink": "https://github.com/HannahBurgoyne/flashcards-app"
-    },
-    {
-      "id": 2,
       "name": "Urgent vet care",
       "image": "/images/vet_care_map.png",
       "description": "This in progress project is my first step into mobile development. The MVP will allow users to view a list of urgent veterinary clinics currently open in the area surrounding their location, and to save their favourite clinics to a list which they can visit at a later time.",
@@ -39,7 +19,7 @@
       "repoLink":  "https://github.com/HannahBurgoyne/urgent-vet-care"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Get This! AI Assistant",
       "image": "/images/get_this.png",
       "description": "I collaborated on this hackathon project with a team of developers. GetThis is a browser extension which aims to enhance a user's ability to process and retain complex information by summarising text and quizzing the user on it, through the power of AI. We reached MVP in just 22 hours.",
@@ -56,6 +36,26 @@
         ],
       "deployedLink": "https://www.youtube.com/watch?v=s3UV0eLC4P8",
       "repoLink": "https://github.com/team-sharpies/chrome-extension"
+    },
+    {
+      "id": 3,
+      "name": "Flashcards App",
+      "image": "/images/flashcards.PNG",
+      "description": "This project allows a user to create and use their own custom flashcards. I originally built this in HTML, CSS, and JavaScript in week 6 of Foundations at Dev Academy Aotearoa, and then recreated the entire project as a fullstack application in week 7 of Bootcamp. While building this app, I learnt how to incorporate JavaScript logic into React and React Query, reinforced my learning on prop drilling and state management in React, learnt how to create and query relational SQLite3 databases with many to many relationships, built my first dynamic form in React, and worked with the framer-motion npm package for the first time. While deploying this app, also I learnt how to refactor my code to query my production database as I migrated it to PostgreSQL.",
+      "tech": [
+      "Node.js",
+      "React",
+      "ReactQuery",
+      "TypeScript",
+      "CSS",
+      "Knex",
+      "SQLite3",
+      "Express",
+      "Superagent",
+      "Vite"
+      ],
+      "deployedLink": "https://flashcards-app-production.up.railway.app/", 
+      "repoLink": "https://github.com/HannahBurgoyne/flashcards-app"
     },
     {
       "id": 4,
