@@ -49,7 +49,7 @@ export default function ProjectDetails(props: Props) {
               className="hover:text-white hover:no-underline"
               href={`${project.deployedLink}`}
             >
-              Try out demo
+              Project Demo
             </a>
           </Button>
         )}
@@ -58,7 +58,7 @@ export default function ProjectDetails(props: Props) {
             className="hover:text-white hover:no-underline"
             href={`${project.repoLink}`}
           >
-            View code
+            View Code
           </a>
         </Button>
       </div>
