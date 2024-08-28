@@ -22,42 +22,39 @@
     },
     {
       "id": 2,
-      "name": "Messaging App",
-      "image": "/images/messagingapp.PNG",
-      "description": "This is my first project using websockets. I recently participated in a hackathon where the theme was 'create a multiplayer app', and my team used websockets for our project. I was really keen to test out websockets further by creating a simple messaging app, and chose to work with Socket.io for this project. I learnt how to incorporate websockets into a fullstack application, set up local storage client-side, create a reverse-proxy server on my local machine to handle socket requests with Nginx, and reinforced my learnings around prop-drilling state management in React and styling with Tailwind CSS.",
+      "name": "Urgent vet care",
+      "image": "/images/vet_care_map.png",
+      "description": "This in progress project is my first step into mobile development. The MVP will allow users to view a list of urgent veterinary clinics currently open in the area surrounding their location, and to save their favourite clinics to a list which they can visit at a later time.",
+      "tech": [
+        ".NET Core",
+        "C#",
+        "Postgres",
+        "Google Maps API", 
+        "Google Places API",
+        "React Native",
+        "ReactQuery",
+        "TypeScript"
+        ],
+      
+      "repoLink":  "https://github.com/HannahBurgoyne/urgent-vet-care"
+    },
+    {
+      "id": 3,
+      "name": "Get This! AI Assistant",
+      "image": "/images/get_this.png",
+      "description": "I collaborated on this hackathon project with a team of developers. GetThis is a browser extension which aims to enhance a user's ability to process and retain complex information by summarising text and quizzing the user on it, through the power of AI. We reached MVP in just 22 hours.",
       "tech": [
         "Node.js",
         "React",
         "ReactQuery",
         "TypeScript",
         "Tailwind CSS",
-        "Socket.io",
-        "Express",
-        "Vite"
-        ],
-      "deployedLink": "https://messaging-app-websockets.up.railway.app/", 
-      "repoLink":  "https://github.com/HannahBurgoyne/messaging-app"
-    },
-    {
-      "id": 3,
-      "name": "Todo Fullstack",
-      "image": "/images/todos.PNG",
-      "description": "This is a Dev Academy Aotearoa project which I was challenged to finish and deploy. I was given an existing boilerplate and styling, and used this to build a fullstack application which shows a user a list of 'todos', or tasks and the status of those tasks. Once I finished developing the app, I deployed it using Dokku. This was my first time deploying a project. It was also my first time building a fullstack application from scratch, and I learnt how to prop-drill data into subcomponents in React, querying and mutating data with ReactQuery, how to prepare an application for deployment (particularly how an app is built for production), and how to deploy with Dokku.",
-      "tech": [
-        "Node.js",
-        "React",
-        "ReactQuery",
-        "TypeScript",
-        "SCSS",
-        "Knex",
-        "SQLite3",
+        "OpenAI GPT4.0 API",
         "Express",
         "Superagent",
-        "Vite", 
-        "Dokku"
+        "Vite"
         ],
-      "deployedLink": "https://todo-fullstack.up.railway.app/", 
-      "repoLink": "https://github.com/HannahBurgoyne/todo-fullstack"
+      "repoLink": "https://github.com/team-sharpies/chrome-extension"
     },
     {
       "id": 4,
